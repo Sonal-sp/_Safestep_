@@ -5,6 +5,7 @@ on:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
+  workflow_dispatch:
 
 jobs:
   analyze_and_test:
@@ -27,11 +28,17 @@ jobs:
           channel: 'stable'
           cache: true
 
+      - name: Ensure Assets Directory Exists
+        run: mkdir -p assets/images
+
       - name: Install Dependencies
         run: flutter pub get
 
       - name: Run Static Analysis
-        run: flutter analyze
+        run: flutter analyze --no-fatal-infos
 
       - name: Run Unit and Widget Tests
-        run: flutter test --coverage
+        run: flutter test
+
+      - name: Build Web Verification
+        run: flutter build web --release

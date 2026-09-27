@@ -1,0 +1,80 @@
+{
+  "appName": "SafeStep",
+  "home": "Home",
+  "medicines": "Medicines",
+  "sos": "SOS",
+  "history": "History",
+  "profile": "Profile",
+  "greeting": "Hello, {name}!",
+  "@greeting": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "todayMedicines": "Today Medicines",
+  "quickAccess": "Quick Access",
+  "addMedicine": "Add Medicine",
+  "editMedicine": "Edit Medicine",
+  "deleteMedicine": "Delete Medicine",
+  "medicineName": "Medicine Name",
+  "dosage": "Dosage",
+  "time": "Time",
+  "frequency": "Frequency",
+  "markTaken": "Mark Taken",
+  "markSkipped": "Mark Skipped",
+  "upcoming": "Upcoming",
+  "taken": "Taken",
+  "missed": "Missed",
+  "skipped": "Skipped",
+  "sosConfirmTitle": "Emergency Alert",
+  "sosConfirmBody": "Calling {contact} and saving alert. Continue?",
+  "@sosConfirmBody": {
+    "placeholders": {
+      "contact": {
+        "type": "String"
+      }
+    }
+  },
+  "ok": "OK",
+  "cancel": "Cancel",
+  "save": "Save",
+  "delete": "Delete",
+  "confirmDelete": "Are you sure you want to delete?",
+  "signIn": "Sign In",
+  "signUp": "Create Account",
+  "email": "Email",
+  "password": "Password",
+  "name": "Name",
+  "age": "Age",
+  "bloodType": "Blood Type",
+  "language": "Language",
+  "logout": "Log Out",
+  "primaryContact": "Primary Contact",
+  "addContact": "Add Contact",
+  "edit": "Edit",
+  "editContact": "Edit Contact",
+  "phone": "Phone",
+  "relationship": "Relationship",
+  "medicalHistory": "Medical History",
+  "addEntry": "Add Entry",
+  "condition": "Condition",
+  "notes": "Notes",
+  "date": "Date",
+  "weeklySummary": "Weekly Summary",
+  "missedCount": "You missed {count} medicines this week",
+  "@missedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "noMedicinesToday": "No medicines scheduled for today",
+  "noContacts": "No emergency contacts added",
+  "noHistory": "No medical history entries",
+  "loginError": "Login failed. Please try again.",
+  "networkError": "Network error. Please check your connection.",
+  "loading": "Loading..."
+}

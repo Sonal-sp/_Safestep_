@@ -1,0 +1,3 @@
+// Stub for web - Platform (dart:io) is not available on web.
+bool get isAndroid => false;
+bool get isIOS => false;
